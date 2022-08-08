@@ -1,0 +1,104 @@
+
+*{
+    box-sizing: border-box;
+	font-family: sans-serif;
+    margin:  0 auto;
+    width: 100%;
+ }
+
+
+.body {
+	align-items: center;
+	background-color: # ;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+ }
+
+
+.logo-gerador {
+	margin-bottom: 24px;
+	max-width: 600px;
+ }
+
+
+.container-principal {
+	margin: 14px 0;
+	max-width: 480px;
+ }
+
+
+.container-principal span {
+	color:  ;
+	font-size: 21px;
+ }
+
+
+.slider {
+	border-radius: 9px;
+	background-color: ;
+	height: 18px;
+	margin-top: 8px;
+	outline: none;
+   -webkit-appearance: none;	
+	width: 100%;
+ }
+
+
+.botão {
+	background-color: ;
+	border: 0;
+	border-radius: 4px;
+	cursor: pointer;
+	color: ;
+	font-weight: bold;
+	font-size: 18px;
+	font:  ;
+	height: 40px;
+	margin-top: 40px;
+ }
+
+
+.container-senha {
+	align-items: center;
+	cursor: pointer;
+	display: flex;
+	flex-direction: columns;
+	margin: 14px 0;
+	max-width: 480px;
+ }
+
+
+.titulo-senha {
+	color: ;
+	font-size: 28px;
+	margin: ;
+	margin-bottom: 8px;
+	margin-top: 24px;
+	text-align: center;
+  }
+
+
+.container-senha {
+	align-items: center;
+	background-color: ;
+	border: 1px solid  ;
+	border-radius: 4px;
+	color: ;
+	display: flex;
+	justify-content: center;
+	height: 60px;
+  }
+
+
+.password:hover {
+	transform: scale(1.10);
+	transition: transform 0.7;
+  }
+
+
+.hide {
+	display: none;
+  }
