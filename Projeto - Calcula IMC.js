@@ -5,9 +5,7 @@
  <meta charset="UTF-8">
 </head>
 <body>
-
 <script>
-
  function mostra(frase){document.write(frase)}
  function CalculaIMC(peso, altura){peso/(altura*2)}
   var peso = parseInt(number(prompt("Ola! digite aqui o seu peso: ")))
