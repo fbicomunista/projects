@@ -49,7 +49,7 @@
 .slider {
     
     border-radius: 9px;
-    background-color: ;
+    background-color: rgba(211, 211, 211, 0.0);
     height: 18px;
     margin-top: 8px;
     outline: none;
@@ -61,7 +61,7 @@
 
 .botão {
     
-    background-color: rgba(211, 211, 211, 0.0);
+    background-color: rgba(0, 255, 0, 0.0);
     border: 0;
     border-radius: 4px;
     cursor: pointer;
