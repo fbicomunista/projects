@@ -87,9 +87,9 @@
 
 .titulo-senha {
     
-    color: ;
+    color: rga;
     font-size: 28px;
-    margin: 24px 0px; 
+    margin: 24px 0px 28px; 
     text-align: center;
     
  }
@@ -98,10 +98,10 @@
 .container-senha {
     
     align-items: center;
-    background-color:;
-    border: 1px solid ;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 1px solid;
     border-radius: 4px;
-    color: ;
+    color: rgba(0, 0, 0, 0.0);
     display: flex;
     justify-content: center;
     height: 60px;
