@@ -66,9 +66,7 @@
     border-radius: 4px;
     cursor: pointer;
     color: ; $ 
-    font-weight: bold;
-    font-size: 18px;
-    font:  ; $
+    font: bold 18px ariel; 
     height: 40px;
     margin-top: 40px;
     
@@ -91,7 +89,7 @@
     
     color: ;
     font-size: 28px;
-    margin: ; $ 
+    margin: 24px ; $ 
     margin-bottom: 8px;
     margin-top: 24px;
     text-align: center;
