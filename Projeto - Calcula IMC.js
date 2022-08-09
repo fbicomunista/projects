@@ -9,8 +9,8 @@
 <script>
 
  function mostra(frase){document.write(frase)}
- function CalculaIMC(peso,altura){peso/(altura*2)}
-  var peso = parseInt(number(prompt("Vla! digite aqui o seu peso: ")))
+ function CalculaIMC(peso, altura){peso/(altura*2)}
+  var peso = parseInt(number(prompt("Ola! digite aqui o seu peso: ")))
   var altura = parseInt(number(prompt("Massa! agora digite a sua altura por favor: ")))
    for(let i=0; i>0; ++i){
     if(peso<46){prompt("Voce mora na Africa? ")}
