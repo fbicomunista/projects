@@ -18,8 +18,9 @@
       }
        if(peso<=83){mostra("Parabens, voce esta na media! não se preocupe, voce não vai voar com o vento, nem ser confundido com um pneu de posto de Gasolina, siga se cuidando assim, aproveite que voce esta parecendo um deus grego e leia esse artigo sobre saude aqui #vai algum link aqui "      i++)}
         if(peso>=90){mostra("Voce provavelmente esta muito gordo, recomendo fazer mais exercicios ou praticar Sumo" i++)
-        }}
- else{"desculpe, mas não entendi pulufas do que voce disse!" i++)
+   else{"desculpe, mas não entendi pulufas do que voce disse!" i++)
+   }}
+ 
 </script>
 </body>
 </html>
