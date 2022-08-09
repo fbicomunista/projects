@@ -3,7 +3,7 @@
     
     box-sizing: border-box;
     font-family: sans-serif;
-    margin:  0 auto;
+    margin: 0 auto;
     width: 100%;
     
  }
@@ -24,7 +24,7 @@
 
 .logo-gerador {
     
-    margin-bottom: 24px;
+    margin-bottom: 25px;
     max-width: 600px;
     
  }
@@ -65,10 +65,10 @@
     border: 0;
     border-radius: 4px;
     cursor: pointer;
-    color: ;
+    color: ; $ 
     font-weight: bold;
     font-size: 18px;
-    font:  ;
+    font:  ; $
     height: 40px;
     margin-top: 40px;
     
@@ -91,7 +91,7 @@
     
     color: ;
     font-size: 28px;
-    margin: ;
+    margin: ; $ 
     margin-bottom: 8px;
     margin-top: 24px;
     text-align: center;
