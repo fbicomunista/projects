@@ -1,32 +1,25 @@
 
 <!DOCTYPE html>
 <html>
-  <head lang="pt-br">
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=devise-width, initial-scale=1.0">
-   <meta name="keywords" content="Gerador de senha, generator password, cria senha, create password">
- <title>Gerador de senha</title>
+<head lang="pt-br">
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=devise-width, initial-scale=1.0">
+ <meta name="keywords" content="Gerador de senha, generator password, cria senha, create password">
+<title>Gerador de senha</title>
  <link rel="stylesheet" href="style.css">
-  </head>
- <body>
-
-  <img class="logo-gerador" src="./Gerador de senha.jpeg" alt="logo do gerador">
-
- <main class="conteiner-principal">
-
-  <span>tamanho<span id="valor"></span>caracteres</span>
-  <input id="slider" class="slider" type="range" min="4" max="10" value="4"/>
-
+</head>
+<body>
+ <img class="logo-gerador" src="./Gerador de senha.jpeg" alt="logo do gerador">
+<main class="conteiner-principal">
+ <span>tamanho<span id="valor"></span>caracteres</span>
+ <input id="slider" class="slider" type="range" min="4" max="10" value="4"/>
  <button onclick="geraSenha()" id="botão-senha" class="botão">Gerar senha</button> 
- </main>
-
-<div id="container-senha" class="container-senha hide">
-
- <span class="titulo-senha">A senha gerada foi:</span>
- <span id="senha" class="senha"> </span>
- <span>Clique na senha para copiar</span>
-
-</div>
+</main>
+ <div id="container-senha" class="container-senha hide">
+  <span class="titulo-senha">A senha gerada foi:</span>
+  <span id="senha" class="senha"> </span>
+  <span>Clique na senha para copiar</span>
+ </div>
 <script src="script.js"></script>
  </body>
 </html>
