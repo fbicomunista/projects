@@ -27,3 +27,4 @@ function geraSenha(){
 
 	alert("Senha gerada com sucesso, sua senha é: " + pass)	
 }
+
