@@ -1,5 +1,5 @@
 
-* {
+*{
     
     box-sizing: border-box;
     font-family: sans-serif;
@@ -48,7 +48,7 @@
 
 .slider {
     
-    border-radius: 9px;
+    border-radius: 6px;
     background: rgba(211, 211, 211, 0.0);
     height: 18px;
     margin-top: 8px;
