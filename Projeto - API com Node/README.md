@@ -1,1 +1,1 @@
-Projeto que é uma API do nodejs
+Projeto que é uma API do nodejs ( em desenvolvimento)
