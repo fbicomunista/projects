@@ -2,7 +2,9 @@
 <!DOCTYPE html>
 <html>
 <head lang="pt-br">
- <meta charset="UTF-8">
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=devise-width, initial-scale=1.0">
+ <meta name="keywords" content="Gerador de senha, generator password, cria senha, create password">
 </head>
 <script>
  var numeroPensado = Math.round(Math.random() * 10) ;
