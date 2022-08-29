@@ -19,9 +19,7 @@
 		}
 tentativas++;
 	}
-
 console.log("fim");
-
 
 </script>
 </html>
