@@ -8,7 +8,7 @@
  }
 
  function calculaIMC(peso, altura){ 
-  return peso/altura^2
+  return peso/(altura^2)
  }
 
  var nomeDaPessoa = prompt("Por favor! informe o seu nome: ")
