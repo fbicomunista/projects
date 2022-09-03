@@ -17,3 +17,4 @@
  var resultado = alert(nomeDaPessoa + " o seu IMC é " + imc)
 
  </script>
+
