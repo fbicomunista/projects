@@ -7,19 +7,19 @@
  <meta name="keywords" content="Gerador de senha, generator password, cria senha, create password">
 </head>
 <script>
- var numeroPensado = Math.round(Math.random() * 10) ;
+ var numeroPensado = Math.round(Math.random() * 10) 
  var tentativas = 1;
   while(tentativas <= 3){
-   var chute = parseInt(prompt("Digite seu chute: "));
+   var chute = parseInt(prompt("Digite seu chute: "))
     if(chute == numeroPensado){
-     console.log("Você descobriu!, o número pensado era "+numeroPensado);
-    break;
+     console.log("Você descobriu!, o número pensado era "+numeroPensado)
+    break
   } else {
- console.log("Você não descobriu antes das 3 tentativas!");
+ console.log("Você não descobriu antes das 3 tentativas!")
 		}
-tentativas++;
+tentativas++
 	}
-console.log("fim");
+console.log("fim")
 
 </script>
 </html>
