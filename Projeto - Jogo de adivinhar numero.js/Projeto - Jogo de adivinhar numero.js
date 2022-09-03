@@ -12,7 +12,7 @@
   while(tentativas <= 3){
    var chute = parseInt(prompt("Digite seu chute: "))
     if(chute == numeroPensado){
-     console.log("Você descobriu!, o número pensado era "+numeroPensado)
+     console.log("Você descobriu!, o número pensado era " + numeroPensado)
     break
   } else {
  console.log("Você não descobriu antes das 3 tentativas!")
