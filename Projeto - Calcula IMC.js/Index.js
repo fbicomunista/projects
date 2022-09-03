@@ -1,7 +1,5 @@
 
-  
 <meta charset="UTF-8">
-
 <script>
    
  function mostraResultado(frase){
@@ -19,7 +17,3 @@
  var resultado = alert(nomeDaPessoa + " o seu IMC é " + imc)
 
  </script>
-
-
-
-
