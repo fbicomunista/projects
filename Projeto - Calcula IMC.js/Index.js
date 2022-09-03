@@ -1,4 +1,5 @@
 
+  
 <meta charset="UTF-8">
 
 <script>
@@ -12,12 +13,13 @@
  }
 
  var nomeDaPessoa = prompt("Por favor! informe o seu nome: ")
- var pesoDaPessoa = prompt("Digite Agora o seu peso: ")
- var alturaDaPessoa = prompt("Agora por ultimo digite a sua altura por favor: ")
+ var pesoDaPessoa = prompt("Entendi! Digite agora o seu peso: ")
+ var alturaDaPessoa = prompt("Agora por ultimo mas não menos importante, digite a sua altura: ")
  var imc = calculaIMC(pesoDaPessoa, alturaDaPessoa)
  var resultado = alert(nomeDaPessoa + " o seu IMC é " + imc)
 
  </script>
+
 
 
 
