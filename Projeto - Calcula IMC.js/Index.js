@@ -3,19 +3,19 @@
 
 <script>
 
- function mostraImc(frase){
-  document.write(frase)
+ function mostraResultado(frase){
+ document.write(frase)
  }
 
  function calculaIMC(peso, altura){ 
-  return peso/(altura * altura)
+ return peso/(altura * altura)
  }
 
- var nomeDaPessoa = prompt("por favor! informe o seu nome: ")
- var pesoDaPessoa = prompt("Ok " + nomeDaPessoa + "! " +"agora digite aqui o seu peso: ")
- var alturaDaPessoa = prompt("Entendi " + nomeDaPessoa + "! " + "Agora digite a sua altura por favor: ")
+ var nomeDaPessoa = prompt("Por favor! informe o seu nome: ")
+ var pesoDaPessoa = prompt("Digite Agora o seu peso: ")
+ var alturaDaPessoa = prompt("Agora por ultimo digite a sua altura por favor: ")
  var imc = calculaIMC(pesoDaPessoa, alturaDaPessoa)
- document.alert(mostraImc(nomeDaPessoa + "!" + " o seu IMC é " + imc))
+ mostraResultado(nomeDaPessoa + " o seu IMC é " + imc)
  
 </script>
 
