@@ -1,5 +1,5 @@
 
-html {
+*{
     
     box-sizing: border-box;
     font-family: sans-serif;
@@ -10,7 +10,7 @@ html {
 body {
     
     align-items: center;
-    background-color: rgba(0, 0, 0, 1.0);
+    background-color: #1B1B1B;
     display: flex;
     flex-direction: column;
     justify-content: center;
