@@ -1,6 +1,6 @@
 
  let sliderElemento = windows.document.querySelector("#slider")
- let botãoElemento = windows.document.querySelector("#botão-senha")
+ let botãoElemento = windows.document.querySelector("#botão")
  let tamanhoSenha = windows.document.querySelector("#valor")
  let senha = windows.document.querySelector("#senha")
  let containerSenha = windows.document.querySelector("#container-senha")
@@ -18,11 +18,10 @@
 		pass += charset.charAt(math.floor(math.random() * n))
     }
 	  
-	  containerPassword.classList.remove("hide")
+    containerPassword.classList.remove("hide")
     password.innerHTML = pass;
-
     novaSenha = pass;
-	  }
+   }
 
 function copyPassword(){
     alert("Senha copiada com sucesso!")
