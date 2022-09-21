@@ -24,7 +24,7 @@
     novaSenha = pass;
 	  }
 
-function copiaSenha(){
+function copyPassword(){
     alert("Senha copiada com sucesso!")
     navigator.clipboard.writeText(novaSenha);
 }
