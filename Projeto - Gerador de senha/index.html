@@ -11,16 +11,18 @@
  <link rel="stylesheet" href="reset.css">
 </head>
 <body>
+<div class="corpo">
 <main class="conteiner-principal">
-<img src="Gerador De Senha.jpg" class="logo-gerador">
+<img src="GeradorDeSenha.jpg" class="logo" alt="Gerador de senha log">
  <span> tamanho <span id="valor"></span> caracteres </span>
  <input id="slider" class="slider" type="range" min="4" max="10" value="4"/>
- <button onclick="geraSenha()" class="botão-cta" id="botão"> Gerar senha </button> 
+ <button onclick="generatePassword()" class="botton-cta" id="button"> Gerar senha </button> 
 </main>
- <div id="container-senha" onclick="copyPassword()" class="container-senha hide">
-  <span class="titulo-senha"> A senha gerada foi: </span>
-  <span id="senha" class="senha"></span>
-  <span> Clique para copiar </span>
+ <div id="container-password" onclick="copyPassword()" class="container-password hide">
+  <span class="title"> A senha gerada foi: </span>
+  <span id="password" class="password"></span>
+  <span class="tooltip"> Clique para copiar </span>
+</div>
  </div>
  </body>
 </html>

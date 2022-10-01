@@ -1,30 +1,37 @@
 
- let sliderElemento = windows.document.querySelector("#slider")
- let botãoElemento = windows.document.querySelector("#botão")
- let tamanhoSenha = windows.document.querySelector("#valor")
- let senha = windows.document.querySelector("#senha")
- let containerSenha = windows.document.querySelector("#container-senha")
- let charset = "abcdefghijklmnopqrstuvxyzABCDEFGHIJKLMNOPQRSTUVXYZ0123456789!@#$%&*+?"
- let novaSenha = ""
- 
-  tamanhoSenha.innerHTML = sliderElemento.value
-   slider.oninput = function (){
-    sizeSenha.innerHTML = this.value
-   }
+let sliderElement = document.querySelector('#slider')
+let buttonElement = document.querySelector('#button')
 
-  function geraSenha(){
-   let pass = ""
-    for(let i = 0, n = charset.lenght; i < sliderElemento.value; ++i){
-		pass += charset.charAt(math.floor(math.random() * n))
-    }
-	  
-    containerPassword.classList.remove("hide")
-    password.innerHTML = pass;
-    novaSenha = pass;
-   }
+let sizePassword = document.querySelector('#valor')
+let password = document.querySelector('#password')
 
-function copyPassword(){
-    alert("Senha copiada com sucesso!")
-    navigator.clipboard.writeText(novaSenha);
+let containerPassword = document.querySelector('#container-password')
+
+let charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789'
+let novaSenha = ''
+
+sizePassword.innerHTML = sliderElement.value
+
+slider.oniput = function(){ 
+    
+    sizePassword.innerHTML = this.value
 }
 
+function generatePassword(){
+    
+    let pass = ''
+    for(let i = 0, n = charset.length; i < sliderElement.value; ++i) {
+        pass += charset.charAt(Math.floor(Math.random()* n))
+    }
+
+    containerPassword.classList.remove("hide")
+    password.innerHTML = pass
+
+    novaSenha = pass
+}
+
+function copyPassword(){
+    
+    alert('Senha copiada!')
+    navigator.clipboard.writeText(novaSenha)
+}
